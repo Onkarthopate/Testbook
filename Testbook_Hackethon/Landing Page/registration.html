@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style_Conference</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+
+<style>
+
+    /* registration button */
+
+   .register button{
+    cursor: pointer; 
+    padding: 1rem; 
+    background: transparent;
+     border: none; 
+     color:#fff;
+     font-size: 17px;
+     border:1px solid ;
+     margin-top: 1rem;
+}
+
+
+.register button:hover{
+background: #fff;
+color: #293e4f;;
+
+}
+
+</style>
+
+<link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+<!-- container  -->
+
+<div class="container">
+
+    <!-- nav-section -->
+
+    <div class="div-nav-section">
+
+        <!-- navbar-section -->
+
+        <div class="nav-section">
+
+            <!-- navbar -->
+
+         <div class="navbar">
+            <div class="nav-section-1 heihlight">
+                <p>STYLES</p>
+                <p>CONFERENCE</p>
+            </div>
+            <div class="nav-section-2">
+                <p class="font-inherit" >August 24-26th — Chicago, IL</p>
+                <ul type="none" >
+                    <a href="index.html"><li  class="heihlight">HOME</li></a>
+                    <a href="speakers.html"><li  class="heihlight">SPEAKERS</li></a>
+                   <a href="schedule.html"> <li  class="heihlight">SCHEDULE</li></a>
+                   <a href="venue.html"> <li  class="heihlight">VENUE</li></a>
+                    <a href="registration.html"><li  class="heihlight">REGISTER</li></a>
+                 </ul>
+            </div>
+         </div>
+
+            <!-- section -->
+
+           <div class="section">
+                <div class="heading">
+                    <p>Register</p>
+                </div>    
+                <div class="heading1">    
+                    <p>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us.</p> <p>Conference passes only cost $99, one of the best values you'll find.</p>
+                </div>
+                
+           </div>
+        </div>
+    </div>
+
+    <!-- middle baar -->
+
+    <div class="middle-container">
+       
+        <div class="importance">
+        
+            <div class="importance1">
+                <div><h2>Purchase a Conference Pass</h2></div>
+                <div><p class="doller">$99 PER PASS</p></div>
+                <div><p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we’ll follow up and provide a receipt for your purchase. See you soon!</p></div>
+           </div> 
+          
+           <div class="importance2">
+               <div><h2>Why Attend?</h2></div>
+               <div>
+                    <ul>
+                        <li>Over twenty world-class speakers</li>
+                        <li>One full day of workshops and two full days of presentations</li>
+                        <li>Hosted at The Chicago Theatre, a historical  landmark</li>
+                        <li>August in Chicago is simply amazing</  li>
+                    </ul>
+                </div>
+         </div> 
+        </div>
+
+        <div class="form-purchase">
+            <form action="purchase.php">
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+               
+                <div class="mail">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" placeholder="Email address" required>
+                </div>
+
+                <div class="passes">
+                    <label for="passes">Number of Passes</label>
+                    <select name="passes" id="">
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                    </select>
+                </div>
+
+                <div class="description">
+                    <div><label for="comments">Description</label></div>
+                    <div><textarea name="comments"cols="30" rows="4" placeholder=" give some suggestion"></textarea></div>
+                </div>
+
+                <div class="button-purchase">
+                    <button>PURCHASE</button>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+        </div>
+ 
+        <div class="footer">
+            <div class="footer-div1">
+                <p>&copy; Styles Conference</p>
+            </div>
+            <div class="footer-div2">
+                    <ul type="none">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="speakers.html"></a>Speakers</li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="venue.html">Venue</a></li>
+                        <li><a href="registration.html">Register</a></li>
+                    </ul>
+            </div>
+        </div> 
+    </div>
+
+</body>
+</html>
